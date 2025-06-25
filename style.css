@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #12181f;
+  color: #f3f3f3;
+}
+header {
+  background: #22304a;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+}
+header p {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.2rem;
+  color: #a2c0e8;
+}
+#scrollToTable {
+  background: #0bc7e3;
+  color: #22304a;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#scrollToTable:hover {
+  background: #099cb4;
+}
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  border-bottom: 2px solid #0bc7e3;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+#leagueTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background: #192537;
+}
+#leagueTable th, #leagueTable td {
+  padding: 0.7rem;
+  text-align: center;
+  border-bottom: 1px solid #22304a;
+}
+#leagueTable th {
+  background: #0bc7e3;
+  color: #22304a;
+}
+#leagueTable tr:last-child td {
+  border-bottom: none;
+}
+#matchList {
+  list-style: none;
+  padding: 0;
+}
+#matchList li {
+  background: #22304a;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}
+footer {
+  background: #22304a;
+  text-align: center;
+  padding: 1rem;
+  color: #a2c0e8;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
